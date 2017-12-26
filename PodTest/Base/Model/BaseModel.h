@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface BaseModel : NSObject
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key;
+-(NSString *)IsNull:(id)tempValue;
 
 @end

@@ -23,6 +23,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)makesureAction:(id)sender {
+}
 
 /*
 #pragma mark - Navigation

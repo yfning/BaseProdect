@@ -16,6 +16,19 @@
 		655D7B461FEE918A0062697E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7B451FEE918A0062697E /* main.m */; };
 		655D7B501FEE918A0062697E /* PodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7B4F1FEE918A0062697E /* PodTestTests.m */; };
 		655D7B5B1FEE918A0062697E /* PodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7B5A1FEE918A0062697E /* PodTestUITests.m */; };
+		65EAB7E11FF14CA10064044C /* RTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7E01FF14CA10064044C /* RTSessionManager.m */; };
+		65EAB7E61FF15AB20064044C /* ForgetPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7E41FF15AB20064044C /* ForgetPassWordViewController.m */; };
+		65EAB7E71FF15AB20064044C /* ForgetPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAB7E51FF15AB20064044C /* ForgetPassWordViewController.xib */; };
+		65EAB7EB1FF15ACD0064044C /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7E91FF15ACD0064044C /* RegistrationViewController.m */; };
+		65EAB7EC1FF15ACD0064044C /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAB7EA1FF15ACD0064044C /* RegistrationViewController.xib */; };
+		65EAB7F01FF15AEE0064044C /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7EE1FF15AEE0064044C /* SuperViewController.m */; };
+		65EAB7F11FF15AEE0064044C /* SuperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAB7EF1FF15AEE0064044C /* SuperViewController.xib */; };
+		65EAB7F51FF15AFF0064044C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7F31FF15AFF0064044C /* MainViewController.m */; };
+		65EAB7F61FF15AFF0064044C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAB7F41FF15AFF0064044C /* MainViewController.xib */; };
+		65EAB7FA1FF164110064044C /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB7F81FF164110064044C /* NextViewController.m */; };
+		65EAB7FB1FF164110064044C /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EAB7F91FF164110064044C /* NextViewController.xib */; };
+		65EAB8011FF165090064044C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB8001FF165090064044C /* BaseModel.m */; };
+		65EAB8051FF171E30064044C /* UIImage+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAB8041FF171E30064044C /* UIImage+Compression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,33 @@
 		655D7B561FEE918A0062697E /* PodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655D7B5A1FEE918A0062697E /* PodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestUITests.m; sourceTree = "<group>"; };
 		655D7B5C1FEE918A0062697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655D7B681FEECC5D0062697E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		655D7B691FEECDE90062697E /* ColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
+		655D7B6A1FEECE280062697E /* FrameHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameHeader.h; sourceTree = "<group>"; };
+		65EAB7DF1FF14CA10064044C /* RTSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSessionManager.h; sourceTree = "<group>"; };
+		65EAB7E01FF14CA10064044C /* RTSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSessionManager.m; sourceTree = "<group>"; };
+		65EAB7E21FF14CF90064044C /* AllHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllHeader.h; sourceTree = "<group>"; };
+		65EAB7E31FF15AB20064044C /* ForgetPassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPassWordViewController.h; sourceTree = "<group>"; };
+		65EAB7E41FF15AB20064044C /* ForgetPassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPassWordViewController.m; sourceTree = "<group>"; };
+		65EAB7E51FF15AB20064044C /* ForgetPassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPassWordViewController.xib; sourceTree = "<group>"; };
+		65EAB7E81FF15ACD0064044C /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		65EAB7E91FF15ACD0064044C /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		65EAB7EA1FF15ACD0064044C /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		65EAB7ED1FF15AEE0064044C /* SuperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		65EAB7EE1FF15AEE0064044C /* SuperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		65EAB7EF1FF15AEE0064044C /* SuperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperViewController.xib; sourceTree = "<group>"; };
+		65EAB7F21FF15AFF0064044C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		65EAB7F31FF15AFF0064044C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		65EAB7F41FF15AFF0064044C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		65EAB7F71FF164110064044C /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		65EAB7F81FF164110064044C /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		65EAB7F91FF164110064044C /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		65EAB7FF1FF165090064044C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		65EAB8001FF165090064044C /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		65EAB8031FF171E30064044C /* UIImage+Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compression.h"; sourceTree = "<group>"; };
+		65EAB8041FF171E30064044C /* UIImage+Compression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compression.m"; sourceTree = "<group>"; };
+		65EAB8091FF173BA0064044C /* InterfaceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceHeader.h; sourceTree = "<group>"; };
+		65EAB80A1FF174AE0064044C /* SystemParameterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemParameterHeader.h; sourceTree = "<group>"; };
 		A9B19435BBBC5DE6A489EC79 /* Pods-PodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodTest/Pods-PodTest.release.xcconfig"; sourceTree = "<group>"; };
 		DDD3FAB11FB67491D2A0CBCA /* libPods-PodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,15 +156,18 @@
 		655D7B351FEE918A0062697E /* PodTest */ = {
 			isa = PBXGroup;
 			children = (
+				65EAB7DE1FF14B9D0064044C /* ProgramEntrance */,
+				65EAB7DD1FF14B990064044C /* Category */,
+				65EAB7DC1FF14B960064044C /* Configuration */,
+				65EAB7DB1FF14B930064044C /* Base */,
+				65EAB7DA1FF14B750064044C /* Header */,
 				655D7B361FEE918A0062697E /* AppDelegate.h */,
 				655D7B371FEE918A0062697E /* AppDelegate.m */,
-				655D7B391FEE918A0062697E /* ViewController.h */,
-				655D7B3A1FEE918A0062697E /* ViewController.m */,
-				655D7B3C1FEE918A0062697E /* Main.storyboard */,
 				655D7B3F1FEE918A0062697E /* Assets.xcassets */,
 				655D7B411FEE918A0062697E /* LaunchScreen.storyboard */,
 				655D7B441FEE918A0062697E /* Info.plist */,
 				655D7B451FEE918A0062697E /* main.m */,
+				655D7B681FEECC5D0062697E /* PrefixHeader.pch */,
 			);
 			path = PodTest;
 			sourceTree = "<group>";
@@ -145,6 +188,118 @@
 				655D7B5C1FEE918A0062697E /* Info.plist */,
 			);
 			path = PodTestUITests;
+			sourceTree = "<group>";
+		};
+		65EAB7DA1FF14B750064044C /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				655D7B691FEECDE90062697E /* ColorHeader.h */,
+				655D7B6A1FEECE280062697E /* FrameHeader.h */,
+				65EAB7E21FF14CF90064044C /* AllHeader.h */,
+				65EAB8091FF173BA0064044C /* InterfaceHeader.h */,
+				65EAB80A1FF174AE0064044C /* SystemParameterHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		65EAB7DB1FF14B930064044C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7FE1FF164C20064044C /* BaseSession */,
+				65EAB7FD1FF164B20064044C /* Model */,
+				65EAB7FC1FF1649B0064044C /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		65EAB7DC1FF14B960064044C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		65EAB7DD1FF14B990064044C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB8031FF171E30064044C /* UIImage+Compression.h */,
+				65EAB8041FF171E30064044C /* UIImage+Compression.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		65EAB7DE1FF14B9D0064044C /* ProgramEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB8071FF173050064044C /* MainModule */,
+				65EAB8061FF172B70064044C /* LoginModule */,
+			);
+			path = ProgramEntrance;
+			sourceTree = "<group>";
+		};
+		65EAB7FC1FF1649B0064044C /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7ED1FF15AEE0064044C /* SuperViewController.h */,
+				65EAB7EE1FF15AEE0064044C /* SuperViewController.m */,
+				65EAB7EF1FF15AEE0064044C /* SuperViewController.xib */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		65EAB7FD1FF164B20064044C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7FF1FF165090064044C /* BaseModel.h */,
+				65EAB8001FF165090064044C /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65EAB7FE1FF164C20064044C /* BaseSession */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7DF1FF14CA10064044C /* RTSessionManager.h */,
+				65EAB7E01FF14CA10064044C /* RTSessionManager.m */,
+			);
+			path = BaseSession;
+			sourceTree = "<group>";
+		};
+		65EAB8061FF172B70064044C /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7E81FF15ACD0064044C /* RegistrationViewController.h */,
+				65EAB7E91FF15ACD0064044C /* RegistrationViewController.m */,
+				65EAB7EA1FF15ACD0064044C /* RegistrationViewController.xib */,
+				65EAB7E31FF15AB20064044C /* ForgetPassWordViewController.h */,
+				65EAB7E41FF15AB20064044C /* ForgetPassWordViewController.m */,
+				65EAB7E51FF15AB20064044C /* ForgetPassWordViewController.xib */,
+				655D7B391FEE918A0062697E /* ViewController.h */,
+				655D7B3A1FEE918A0062697E /* ViewController.m */,
+				655D7B3C1FEE918A0062697E /* Main.storyboard */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		65EAB8071FF173050064044C /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7F21FF15AFF0064044C /* MainViewController.h */,
+				65EAB7F31FF15AFF0064044C /* MainViewController.m */,
+				65EAB7F41FF15AFF0064044C /* MainViewController.xib */,
+				65EAB8081FF173370064044C /* SubModule */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		65EAB8081FF173370064044C /* SubModule */ = {
+			isa = PBXGroup;
+			children = (
+				65EAB7F71FF164110064044C /* NextViewController.h */,
+				65EAB7F81FF164110064044C /* NextViewController.m */,
+				65EAB7F91FF164110064044C /* NextViewController.xib */,
+			);
+			path = SubModule;
 			sourceTree = "<group>";
 		};
 		CBBDD3A6F1825F469532C05F /* Pods */ = {
@@ -265,8 +420,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EAB7EC1FF15ACD0064044C /* RegistrationViewController.xib in Resources */,
+				65EAB7E71FF15AB20064044C /* ForgetPassWordViewController.xib in Resources */,
 				655D7B431FEE918A0062697E /* LaunchScreen.storyboard in Resources */,
 				655D7B401FEE918A0062697E /* Assets.xcassets in Resources */,
+				65EAB7F11FF15AEE0064044C /* SuperViewController.xib in Resources */,
+				65EAB7FB1FF164110064044C /* NextViewController.xib in Resources */,
+				65EAB7F61FF15AFF0064044C /* MainViewController.xib in Resources */,
 				655D7B3E1FEE918A0062697E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,8 +500,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EAB7F01FF15AEE0064044C /* SuperViewController.m in Sources */,
+				65EAB7FA1FF164110064044C /* NextViewController.m in Sources */,
 				655D7B3B1FEE918A0062697E /* ViewController.m in Sources */,
+				65EAB8051FF171E30064044C /* UIImage+Compression.m in Sources */,
+				65EAB7EB1FF15ACD0064044C /* RegistrationViewController.m in Sources */,
+				65EAB7F51FF15AFF0064044C /* MainViewController.m in Sources */,
 				655D7B461FEE918A0062697E /* main.m in Sources */,
+				65EAB7E61FF15AB20064044C /* ForgetPassWordViewController.m in Sources */,
+				65EAB7E11FF14CA10064044C /* RTSessionManager.m in Sources */,
+				65EAB8011FF165090064044C /* BaseModel.m in Sources */,
 				655D7B381FEE918A0062697E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +674,10 @@
 			baseConfigurationReference = 480ADE0DCDBE0533B3122EEA /* Pods-PodTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PodTest/PrefixHeader.pch";
 				INFOPLIST_FILE = PodTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.PodTest;
@@ -520,7 +691,10 @@
 			baseConfigurationReference = A9B19435BBBC5DE6A489EC79 /* Pods-PodTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PodTest/PrefixHeader.pch";
 				INFOPLIST_FILE = PodTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.PodTest;
