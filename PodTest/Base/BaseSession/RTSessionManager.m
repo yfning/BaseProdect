@@ -30,11 +30,18 @@
                        success:(void(^) (BOOL isSuccess, id responseObject))success
                        failure:(void(^) (NSError *error))failure{
     
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[self topViewController].view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.label.text = @"加载中...";
     [[RTSessionManager initializationManager] GET:path parameters:paramters progress:^(NSProgress * _Nonnull downloadProgress) {
         //数据请求的进度
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [MBProgressHUD hideAllHUDsForView:[self topViewController].view animated:YES];
+
         //数据请求成功后，返回 responseObject 结果集
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [MBProgressHUD hideAllHUDsForView:[self topViewController].view animated:YES];
+
         //数据请求失败，返回错误信息原因 error
     }];
 }
@@ -55,6 +62,9 @@
                      success:(void(^) (BOOL isSuccess, id responseObject))success
                      failure:(void(^) (NSError *error))failure {
     
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[self topViewController].view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.label.text = @"加载中...";
     [[RTSessionManager initializationManager] POST:path parameters:paramters progress:^(NSProgress * _Nonnull uploadProgress) {
         
         NSLog(@"downLoadProcess = %@",uploadProgress);
@@ -63,7 +73,8 @@
             upLoadProgress(uploadProgress.completedUnitCount / uploadProgress.totalUnitCount);
         }
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
+        [MBProgressHUD hideAllHUDsForView:[self topViewController].view animated:YES];
+
         NSLog(@"responseObject = %@",responseObject);
         if (success) {
             
@@ -73,7 +84,8 @@
         
         NSLog(@"error = %@",error);
         if (failure) {
-            
+            [MBProgressHUD hideAllHUDsForView:[self topViewController].view animated:YES];
+
             failure(error);
         }
     }];

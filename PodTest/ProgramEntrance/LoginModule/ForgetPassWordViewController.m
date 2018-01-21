@@ -9,6 +9,7 @@
 #import "ForgetPassWordViewController.h"
 
 @interface ForgetPassWordViewController ()
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topDistance;
 
 @end
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        _topDistance.constant = STATUS_BAR_HEIGHT;
+    }) ;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +28,12 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)makesureAction:(id)sender {
+}
+- (IBAction)backButtonAction:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 /*

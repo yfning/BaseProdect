@@ -1,0 +1,1 @@
+../../../../BaiduMapKit-Modular/BaiduMapKit-Modular/Vendors/BaiduMapAPI_Base.framework/Headers/BMKVersion.h

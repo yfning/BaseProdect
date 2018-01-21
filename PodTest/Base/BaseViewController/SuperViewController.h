@@ -11,4 +11,6 @@
 @interface SuperViewController : UIViewController
 
 -(void)changeColorBackViewWithColor:(UIColor *)color;
+-(void)setOrigainStyleIsBounces:(BOOL)isBounces object:(UITableView *)object;
+-(void)alertWithShowMessage:(NSString *)showMessage showTitle:(NSString *)showTitle showButtonTitle:(NSString *)showButtonTitle;
 @end

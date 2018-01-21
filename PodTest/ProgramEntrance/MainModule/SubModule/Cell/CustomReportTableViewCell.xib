@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomReportTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iP7-ll-FgZ">
+                        <rect key="frame" x="10" y="0.0" width="80" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="LVN-FN-oUT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTn-za-iVb">
+                        <rect key="frame" x="280" y="6" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ToP-UO-MEQ"/>
+                            <constraint firstAttribute="width" constant="30" id="gd5-Ef-3Pp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hmh-He-nbJ">
+                        <rect key="frame" x="95" y="0.0" width="180" height="43.5"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dH-hF-6nw">
+                        <rect key="frame" x="0.0" y="42.5" width="320" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="bKa-zc-fHN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iP7-ll-FgZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1t1-R9-mnL"/>
+                    <constraint firstAttribute="trailing" secondItem="pTn-za-iVb" secondAttribute="trailing" constant="10" id="CHq-94-AyO"/>
+                    <constraint firstItem="pTn-za-iVb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="GGG-Wb-5ky"/>
+                    <constraint firstAttribute="trailing" secondItem="0dH-hF-6nw" secondAttribute="trailing" id="IUm-Yc-z6c"/>
+                    <constraint firstAttribute="bottom" secondItem="Hmh-He-nbJ" secondAttribute="bottom" id="R2b-dS-jPT"/>
+                    <constraint firstItem="iP7-ll-FgZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TPi-9P-sfR"/>
+                    <constraint firstItem="0dH-hF-6nw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VIi-fV-JR5"/>
+                    <constraint firstItem="Hmh-He-nbJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mnu-uW-SXC"/>
+                    <constraint firstAttribute="bottom" secondItem="0dH-hF-6nw" secondAttribute="bottom" id="n9D-Ci-OyO"/>
+                    <constraint firstItem="Hmh-He-nbJ" firstAttribute="leading" secondItem="iP7-ll-FgZ" secondAttribute="trailing" constant="5" id="sE7-aZ-2vq"/>
+                    <constraint firstItem="pTn-za-iVb" firstAttribute="leading" secondItem="Hmh-He-nbJ" secondAttribute="trailing" constant="5" id="sdR-bf-7Wn"/>
+                    <constraint firstAttribute="bottom" secondItem="iP7-ll-FgZ" secondAttribute="bottom" id="udi-K4-kZS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="clickButton" destination="pTn-za-iVb" id="Ble-Qu-qSY"/>
+                <outlet property="nameLabel" destination="iP7-ll-FgZ" id="184-lN-qos"/>
+                <outlet property="recordTextField" destination="Hmh-He-nbJ" id="EDO-G0-KTp"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

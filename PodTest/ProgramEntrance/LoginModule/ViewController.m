@@ -11,6 +11,8 @@
 #import "AppDelegate.h"
 #import "RegistrationViewController.h"
 #import "ForgetPassWordViewController.h"
+#import "MianTabBarViewController.h"
+
 
 @interface ViewController ()
 
@@ -32,17 +34,29 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)loginAction:(id)sender {
-    MainViewController * mainView = [[MainViewController alloc]init];
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:mainView];
-    AppDelegate * app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    app.window.rootViewController = nav;
+//    MainViewController * mainView = [[MainViewController alloc]init];
+    MianTabBarViewController * maintabBar = [[MianTabBarViewController alloc]init];
+    
+    [BaseManagerObject changeRootViewController:maintabBar];
 }
 - (IBAction)registrationAction:(id)sender {
     
-    [self.navigationController pushViewController:[RegistrationViewController new] animated:YES];
+//    CATransition *transition = [CATransition animation];
+//    transition.duration = 4;
+//    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault];
+//    transition.type = kCATransitionPush;
+//    transition.subtype = kCATransitionFromRight;
+    RegistrationViewController * regist =[RegistrationViewController new];
+//    [regist.view.layer addAnimation:transition forKey:nil];
+    [self presentViewController:regist animated:NO completion:nil];
+    
+//    [self.navigationController pushViewController:[RegistrationViewController new] animated:YES];
 }
 - (IBAction)forgetPasswordAction:(id)sender {
-    [self.navigationController pushViewController:[ForgetPassWordViewController new] animated:YES];
+    
+   ForgetPassWordViewController * forget = [ForgetPassWordViewController new];
+    [self presentViewController:forget animated:NO completion:nil];
+
 }
 
 

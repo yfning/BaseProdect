@@ -8,6 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		221FCEAAB261949BADEC8BAA /* libPods-PodTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD3FAB11FB67491D2A0CBCA /* libPods-PodTest.a */; };
+		440D0003200DE4C000F871F6 /* ChartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D0002200DE4C000F871F6 /* ChartLineView.m */; };
+		440D0006200DEC5000F871F6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D0005200DEC5000F871F6 /* BaseTableViewController.m */; };
+		440D0009200DEC6D00F871F6 /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D0008200DEC6D00F871F6 /* BaseScrollView.m */; };
+		440DFFF4200D88F500F871F6 /* ThePieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440DFFF3200D88F500F871F6 /* ThePieChartView.m */; };
+		440DFFF9200D8C2B00F871F6 /* BaseCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440DFFF8200D8C2B00F871F6 /* BaseCircleView.m */; };
+		440DFFFC200DD81900F871F6 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 440DFFFB200DD81900F871F6 /* NSString+Validation.m */; };
+		440DFFFF200DDA3A00F871F6 /* NSString+UrlEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 440DFFFE200DDA3A00F871F6 /* NSString+UrlEncoding.m */; };
+		44A814D1201178C90055721B /* BaseCDPAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814D0201178C90055721B /* BaseCDPAudioRecordManager.m */; };
+		44A814D4201198050055721B /* ShowPromptBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814D3201198050055721B /* ShowPromptBoxView.m */; };
+		44A814D6201199AB0055721B /* ShowPromptBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A814D5201199AB0055721B /* ShowPromptBoxView.xib */; };
+		44A814D920119AEF0055721B /* BaseManagerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814D820119AEF0055721B /* BaseManagerObject.m */; };
+		44A814DD2011BF280055721B /* CustomReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814DB2011BF280055721B /* CustomReportViewController.m */; };
+		44A814DE2011BF280055721B /* CustomReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A814DC2011BF280055721B /* CustomReportViewController.xib */; };
+		44A814E22011C07F0055721B /* CustomReportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814E02011C07F0055721B /* CustomReportTableViewCell.m */; };
+		44A814E32011C07F0055721B /* CustomReportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A814E12011C07F0055721B /* CustomReportTableViewCell.xib */; };
+		44A814EC2011DA5E0055721B /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A814EA2011DA5E0055721B /* CustomerViewController.m */; };
+		44A814ED2011DA5E0055721B /* CustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A814EB2011DA5E0055721B /* CustomerViewController.xib */; };
+		44D67561200EDBB0005A8E98 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6755F200EDBB0005A8E98 /* MainTableViewController.m */; };
+		44D67562200EDBB0005A8E98 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67560200EDBB0005A8E98 /* MainTableViewController.xib */; };
+		44D67566200EDBF5005A8E98 /* MianTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D67564200EDBF5005A8E98 /* MianTabBarViewController.m */; };
+		44D67567200EDBF5005A8E98 /* MianTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67565200EDBF5005A8E98 /* MianTabBarViewController.xib */; };
+		44D6756C200EE455005A8E98 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6756A200EE455005A8E98 /* UserInfoViewController.m */; };
+		44D6756D200EE455005A8E98 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D6756B200EE455005A8E98 /* UserInfoViewController.xib */; };
+		44D67570200EE735005A8E98 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6756F200EE735005A8E98 /* BaseTableView.m */; };
+		44D67574200EED72005A8E98 /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D67572200EED72005A8E98 /* UserInfoTableViewCell.m */; };
+		44D67575200EED72005A8E98 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67573200EED72005A8E98 /* UserInfoTableViewCell.xib */; };
+		44D6757A200F1041005A8E98 /* LoginLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D67578200F1041005A8E98 /* LoginLogViewController.m */; };
+		44D6757B200F1041005A8E98 /* LoginLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67579200F1041005A8E98 /* LoginLogViewController.xib */; };
+		44D6757F200F106E005A8E98 /* ChangePassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6757D200F106E005A8E98 /* ChangePassWordViewController.m */; };
+		44D67580200F106E005A8E98 /* ChangePassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D6757E200F106E005A8E98 /* ChangePassWordViewController.xib */; };
+		44D67584200F10A2005A8E98 /* DownloadAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D67582200F10A2005A8E98 /* DownloadAddViewController.m */; };
+		44D67585200F10A2005A8E98 /* DownloadAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67583200F10A2005A8E98 /* DownloadAddViewController.xib */; };
+		44D67589200F10BB005A8E98 /* VersonNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D67587200F10BB005A8E98 /* VersonNumViewController.m */; };
+		44D6758A200F10BB005A8E98 /* VersonNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D67588200F10BB005A8E98 /* VersonNumViewController.xib */; };
+		44D6758D200F1311005A8E98 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6758C200F1311005A8E98 /* BaseNavViewController.m */; };
+		44D67590200F1A5A005A8E98 /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6758F200F1A5A005A8E98 /* UIViewController+BarButton.m */; };
+		44D675A4200F33BF005A8E98 /* ReceptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6759F200F33BE005A8E98 /* ReceptionTableViewCell.m */; };
+		44D675A5200F33BF005A8E98 /* ReceptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D675A0200F33BE005A8E98 /* ReceptionTableViewCell.xib */; };
+		44D675A6200F33BF005A8E98 /* CustomerReceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D675A1200F33BF005A8E98 /* CustomerReceptionViewController.m */; };
+		44D675A7200F33BF005A8E98 /* CustomerReceptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D675A2200F33BF005A8E98 /* CustomerReceptionViewController.xib */; };
+		44D675AD200F4872005A8E98 /* RecordFirstInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D675AB200F4872005A8E98 /* RecordFirstInfoViewController.m */; };
+		44D675AE200F4872005A8E98 /* RecordFirstInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D675AC200F4872005A8E98 /* RecordFirstInfoViewController.xib */; };
+		44D675B1200F4C79005A8E98 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D675B0200F4C79005A8E98 /* BaseView.m */; };
+		44D675B6200F5C74005A8E98 /* RecordFirstNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D675B4200F5C74005A8E98 /* RecordFirstNextViewController.m */; };
+		44D675B7200F5C74005A8E98 /* RecordFirstNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D675B5200F5C74005A8E98 /* RecordFirstNextViewController.xib */; };
+		44E2FEC020101C2900105181 /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEBE20101C2900105181 /* SpeechViewController.m */; };
+		44E2FEC120101C2900105181 /* SpeechViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FEBF20101C2900105181 /* SpeechViewController.xib */; };
+		44E2FEE820102E4E00105181 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E2FEE320102E4E00105181 /* libopencore-amrwb.a */; };
+		44E2FEE920102E4E00105181 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E2FEE420102E4E00105181 /* libopencore-amrnb.a */; };
+		44E2FEEA20102E4E00105181 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEE520102E4E00105181 /* amrFileCodec.m */; };
+		44E2FEEB20102E4E00105181 /* CDPAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEE720102E4E00105181 /* CDPAudioRecorder.m */; };
+		44E2FEF020102E8800105181 /* PlayRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEEE20102E8800105181 /* PlayRecordViewController.m */; };
+		44E2FEF120102E8800105181 /* PlayRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FEEF20102E8800105181 /* PlayRecordViewController.xib */; };
+		44E2FEF520104CFA00105181 /* NSObject+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEF420104CFA00105181 /* NSObject+View.m */; };
+		44E2FEF920106F4A00105181 /* FollowRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEF720106F4A00105181 /* FollowRecordViewController.m */; };
+		44E2FEFA20106F4A00105181 /* FollowRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FEF820106F4A00105181 /* FollowRecordViewController.xib */; };
+		44E2FEFE20107A6D00105181 /* FollowRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FEFC20107A6D00105181 /* FollowRecordTableViewCell.m */; };
+		44E2FEFF20107A6D00105181 /* FollowRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FEFD20107A6D00105181 /* FollowRecordTableViewCell.xib */; };
+		44E2FF042010C36F00105181 /* FollowRecordLevelTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FF022010C36F00105181 /* FollowRecordLevelTwoViewController.m */; };
+		44E2FF052010C36F00105181 /* FollowRecordLevelTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FF032010C36F00105181 /* FollowRecordLevelTwoViewController.xib */; };
+		44E2FF0A2010C5AC00105181 /* FollowLevelTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2FF082010C5AC00105181 /* FollowLevelTwoTableViewCell.m */; };
+		44E2FF0B2010C5AC00105181 /* FollowLevelTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E2FF092010C5AC00105181 /* FollowLevelTwoTableViewCell.xib */; };
+		44F843E2200C7EDD00CE9174 /* XZMLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F843E1200C7EDD00CE9174 /* XZMLayer.m */; };
+		44F843E5200C80C000CE9174 /* XZMPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F843E4200C80C000CE9174 /* XZMPieView.m */; };
 		655D7B381FEE918A0062697E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7B371FEE918A0062697E /* AppDelegate.m */; };
 		655D7B3B1FEE918A0062697E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7B3A1FEE918A0062697E /* ViewController.m */; };
 		655D7B3E1FEE918A0062697E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655D7B3C1FEE918A0062697E /* Main.storyboard */; };
@@ -49,6 +113,115 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		440D0001200DE4C000F871F6 /* ChartLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartLineView.h; sourceTree = "<group>"; };
+		440D0002200DE4C000F871F6 /* ChartLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartLineView.m; sourceTree = "<group>"; };
+		440D0004200DEC5000F871F6 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		440D0005200DEC5000F871F6 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		440D0007200DEC6D00F871F6 /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		440D0008200DEC6D00F871F6 /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		440DFFF2200D88F500F871F6 /* ThePieChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThePieChartView.h; sourceTree = "<group>"; };
+		440DFFF3200D88F500F871F6 /* ThePieChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThePieChartView.m; sourceTree = "<group>"; };
+		440DFFF7200D8C2B00F871F6 /* BaseCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCircleView.h; sourceTree = "<group>"; };
+		440DFFF8200D8C2B00F871F6 /* BaseCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCircleView.m; sourceTree = "<group>"; };
+		440DFFFA200DD81900F871F6 /* NSString+Validation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		440DFFFB200DD81900F871F6 /* NSString+Validation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		440DFFFD200DDA3A00F871F6 /* NSString+UrlEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncoding.h"; sourceTree = "<group>"; };
+		440DFFFE200DDA3A00F871F6 /* NSString+UrlEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncoding.m"; sourceTree = "<group>"; };
+		44A814CF201178C90055721B /* BaseCDPAudioRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCDPAudioRecordManager.h; sourceTree = "<group>"; };
+		44A814D0201178C90055721B /* BaseCDPAudioRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCDPAudioRecordManager.m; sourceTree = "<group>"; };
+		44A814D2201198050055721B /* ShowPromptBoxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowPromptBoxView.h; sourceTree = "<group>"; };
+		44A814D3201198050055721B /* ShowPromptBoxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowPromptBoxView.m; sourceTree = "<group>"; };
+		44A814D5201199AB0055721B /* ShowPromptBoxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPromptBoxView.xib; sourceTree = "<group>"; };
+		44A814D720119AEF0055721B /* BaseManagerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseManagerObject.h; sourceTree = "<group>"; };
+		44A814D820119AEF0055721B /* BaseManagerObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseManagerObject.m; sourceTree = "<group>"; };
+		44A814DA2011BF280055721B /* CustomReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomReportViewController.h; sourceTree = "<group>"; };
+		44A814DB2011BF280055721B /* CustomReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomReportViewController.m; sourceTree = "<group>"; };
+		44A814DC2011BF280055721B /* CustomReportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomReportViewController.xib; sourceTree = "<group>"; };
+		44A814DF2011C07F0055721B /* CustomReportTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomReportTableViewCell.h; sourceTree = "<group>"; };
+		44A814E02011C07F0055721B /* CustomReportTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomReportTableViewCell.m; sourceTree = "<group>"; };
+		44A814E12011C07F0055721B /* CustomReportTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomReportTableViewCell.xib; sourceTree = "<group>"; };
+		44A814E92011DA5E0055721B /* CustomerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		44A814EA2011DA5E0055721B /* CustomerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		44A814EB2011DA5E0055721B /* CustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerViewController.xib; sourceTree = "<group>"; };
+		44D6755E200EDBB0005A8E98 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		44D6755F200EDBB0005A8E98 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		44D67560200EDBB0005A8E98 /* MainTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		44D67563200EDBF5005A8E98 /* MianTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MianTabBarViewController.h; sourceTree = "<group>"; };
+		44D67564200EDBF5005A8E98 /* MianTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MianTabBarViewController.m; sourceTree = "<group>"; };
+		44D67565200EDBF5005A8E98 /* MianTabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MianTabBarViewController.xib; sourceTree = "<group>"; };
+		44D67569200EE455005A8E98 /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		44D6756A200EE455005A8E98 /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		44D6756B200EE455005A8E98 /* UserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		44D6756E200EE735005A8E98 /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		44D6756F200EE735005A8E98 /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		44D67571200EED72005A8E98 /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		44D67572200EED72005A8E98 /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		44D67573200EED72005A8E98 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+		44D67577200F1041005A8E98 /* LoginLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginLogViewController.h; sourceTree = "<group>"; };
+		44D67578200F1041005A8E98 /* LoginLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginLogViewController.m; sourceTree = "<group>"; };
+		44D67579200F1041005A8E98 /* LoginLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginLogViewController.xib; sourceTree = "<group>"; };
+		44D6757C200F106E005A8E98 /* ChangePassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePassWordViewController.h; sourceTree = "<group>"; };
+		44D6757D200F106E005A8E98 /* ChangePassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePassWordViewController.m; sourceTree = "<group>"; };
+		44D6757E200F106E005A8E98 /* ChangePassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePassWordViewController.xib; sourceTree = "<group>"; };
+		44D67581200F10A2005A8E98 /* DownloadAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadAddViewController.h; sourceTree = "<group>"; };
+		44D67582200F10A2005A8E98 /* DownloadAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadAddViewController.m; sourceTree = "<group>"; };
+		44D67583200F10A2005A8E98 /* DownloadAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadAddViewController.xib; sourceTree = "<group>"; };
+		44D67586200F10BB005A8E98 /* VersonNumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersonNumViewController.h; sourceTree = "<group>"; };
+		44D67587200F10BB005A8E98 /* VersonNumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersonNumViewController.m; sourceTree = "<group>"; };
+		44D67588200F10BB005A8E98 /* VersonNumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VersonNumViewController.xib; sourceTree = "<group>"; };
+		44D6758B200F1311005A8E98 /* BaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		44D6758C200F1311005A8E98 /* BaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		44D6758E200F1A5A005A8E98 /* UIViewController+BarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
+		44D6758F200F1A5A005A8E98 /* UIViewController+BarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
+		44D67591200F220E005A8E98 /* DefaultStringHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultStringHeader.h; sourceTree = "<group>"; };
+		44D6759E200F33BE005A8E98 /* ReceptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceptionTableViewCell.h; sourceTree = "<group>"; };
+		44D6759F200F33BE005A8E98 /* ReceptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceptionTableViewCell.m; sourceTree = "<group>"; };
+		44D675A0200F33BE005A8E98 /* ReceptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceptionTableViewCell.xib; sourceTree = "<group>"; };
+		44D675A1200F33BF005A8E98 /* CustomerReceptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerReceptionViewController.m; sourceTree = "<group>"; };
+		44D675A2200F33BF005A8E98 /* CustomerReceptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerReceptionViewController.xib; sourceTree = "<group>"; };
+		44D675A3200F33BF005A8E98 /* CustomerReceptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerReceptionViewController.h; sourceTree = "<group>"; };
+		44D675AA200F4872005A8E98 /* RecordFirstInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordFirstInfoViewController.h; sourceTree = "<group>"; };
+		44D675AB200F4872005A8E98 /* RecordFirstInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordFirstInfoViewController.m; sourceTree = "<group>"; };
+		44D675AC200F4872005A8E98 /* RecordFirstInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordFirstInfoViewController.xib; sourceTree = "<group>"; };
+		44D675AF200F4C79005A8E98 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		44D675B0200F4C79005A8E98 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		44D675B3200F5C74005A8E98 /* RecordFirstNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordFirstNextViewController.h; sourceTree = "<group>"; };
+		44D675B4200F5C74005A8E98 /* RecordFirstNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordFirstNextViewController.m; sourceTree = "<group>"; };
+		44D675B5200F5C74005A8E98 /* RecordFirstNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordFirstNextViewController.xib; sourceTree = "<group>"; };
+		44E2FEBD20101C2900105181 /* SpeechViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechViewController.h; sourceTree = "<group>"; };
+		44E2FEBE20101C2900105181 /* SpeechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
+		44E2FEBF20101C2900105181 /* SpeechViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeechViewController.xib; sourceTree = "<group>"; };
+		44E2FEDA20102E4E00105181 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		44E2FEDD20102E4E00105181 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		44E2FEDE20102E4E00105181 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		44E2FEE020102E4E00105181 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		44E2FEE120102E4E00105181 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		44E2FEE320102E4E00105181 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		44E2FEE420102E4E00105181 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		44E2FEE520102E4E00105181 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		44E2FEE620102E4E00105181 /* CDPAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPAudioRecorder.h; sourceTree = "<group>"; };
+		44E2FEE720102E4E00105181 /* CDPAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPAudioRecorder.m; sourceTree = "<group>"; };
+		44E2FEED20102E8800105181 /* PlayRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayRecordViewController.h; sourceTree = "<group>"; };
+		44E2FEEE20102E8800105181 /* PlayRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayRecordViewController.m; sourceTree = "<group>"; };
+		44E2FEEF20102E8800105181 /* PlayRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayRecordViewController.xib; sourceTree = "<group>"; };
+		44E2FEF320104CFA00105181 /* NSObject+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+View.h"; sourceTree = "<group>"; };
+		44E2FEF420104CFA00105181 /* NSObject+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+View.m"; sourceTree = "<group>"; };
+		44E2FEF620106F4A00105181 /* FollowRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowRecordViewController.h; sourceTree = "<group>"; };
+		44E2FEF720106F4A00105181 /* FollowRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowRecordViewController.m; sourceTree = "<group>"; };
+		44E2FEF820106F4A00105181 /* FollowRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowRecordViewController.xib; sourceTree = "<group>"; };
+		44E2FEFB20107A6D00105181 /* FollowRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowRecordTableViewCell.h; sourceTree = "<group>"; };
+		44E2FEFC20107A6D00105181 /* FollowRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowRecordTableViewCell.m; sourceTree = "<group>"; };
+		44E2FEFD20107A6D00105181 /* FollowRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowRecordTableViewCell.xib; sourceTree = "<group>"; };
+		44E2FF012010C36F00105181 /* FollowRecordLevelTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowRecordLevelTwoViewController.h; sourceTree = "<group>"; };
+		44E2FF022010C36F00105181 /* FollowRecordLevelTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowRecordLevelTwoViewController.m; sourceTree = "<group>"; };
+		44E2FF032010C36F00105181 /* FollowRecordLevelTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowRecordLevelTwoViewController.xib; sourceTree = "<group>"; };
+		44E2FF072010C5AC00105181 /* FollowLevelTwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowLevelTwoTableViewCell.h; sourceTree = "<group>"; };
+		44E2FF082010C5AC00105181 /* FollowLevelTwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowLevelTwoTableViewCell.m; sourceTree = "<group>"; };
+		44E2FF092010C5AC00105181 /* FollowLevelTwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowLevelTwoTableViewCell.xib; sourceTree = "<group>"; };
+		44F843E0200C7EDD00CE9174 /* XZMLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMLayer.h; sourceTree = "<group>"; };
+		44F843E1200C7EDD00CE9174 /* XZMLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMLayer.m; sourceTree = "<group>"; };
+		44F843E3200C80C000CE9174 /* XZMPieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMPieView.h; sourceTree = "<group>"; };
+		44F843E4200C80C000CE9174 /* XZMPieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMPieView.m; sourceTree = "<group>"; };
 		480ADE0DCDBE0533B3122EEA /* Pods-PodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodTest/Pods-PodTest.debug.xcconfig"; sourceTree = "<group>"; };
 		655D7B331FEE918A0062697E /* PodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655D7B361FEE918A0062697E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +275,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E2FEE820102E4E00105181 /* libopencore-amrwb.a in Frameworks */,
+				44E2FEE920102E4E00105181 /* libopencore-amrnb.a in Frameworks */,
 				221FCEAAB261949BADEC8BAA /* libPods-PodTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +306,247 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		440D0000200DE4AA00F871F6 /* ChartLineView */ = {
+			isa = PBXGroup;
+			children = (
+				440D0001200DE4C000F871F6 /* ChartLineView.h */,
+				440D0002200DE4C000F871F6 /* ChartLineView.m */,
+			);
+			path = ChartLineView;
+			sourceTree = "<group>";
+		};
+		440DFFF1200D888000F871F6 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				440D0000200DE4AA00F871F6 /* ChartLineView */,
+				440DFFF6200D8C0B00F871F6 /* CircleView */,
+				440DFFF5200D89BB00F871F6 /* ThePie */,
+				44F843E0200C7EDD00CE9174 /* XZMLayer.h */,
+				44F843E1200C7EDD00CE9174 /* XZMLayer.m */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		440DFFF5200D89BB00F871F6 /* ThePie */ = {
+			isa = PBXGroup;
+			children = (
+				440DFFF2200D88F500F871F6 /* ThePieChartView.h */,
+				440DFFF3200D88F500F871F6 /* ThePieChartView.m */,
+				44F843E3200C80C000CE9174 /* XZMPieView.h */,
+				44F843E4200C80C000CE9174 /* XZMPieView.m */,
+			);
+			path = ThePie;
+			sourceTree = "<group>";
+		};
+		440DFFF6200D8C0B00F871F6 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				440DFFF7200D8C2B00F871F6 /* BaseCircleView.h */,
+				440DFFF8200D8C2B00F871F6 /* BaseCircleView.m */,
+			);
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+		44A814CE201178670055721B /* BaseCDPAudioRecordManager */ = {
+			isa = PBXGroup;
+			children = (
+				44A814CF201178C90055721B /* BaseCDPAudioRecordManager.h */,
+				44A814D0201178C90055721B /* BaseCDPAudioRecordManager.m */,
+			);
+			path = BaseCDPAudioRecordManager;
+			sourceTree = "<group>";
+		};
+		44D67568200EE42F005A8E98 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				44D67576200F100B005A8E98 /* Level2 */,
+				44D67569200EE455005A8E98 /* UserInfoViewController.h */,
+				44D6756A200EE455005A8E98 /* UserInfoViewController.m */,
+				44D6756B200EE455005A8E98 /* UserInfoViewController.xib */,
+				44D67571200EED72005A8E98 /* UserInfoTableViewCell.h */,
+				44D67572200EED72005A8E98 /* UserInfoTableViewCell.m */,
+				44D67573200EED72005A8E98 /* UserInfoTableViewCell.xib */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		44D67576200F100B005A8E98 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				44D67577200F1041005A8E98 /* LoginLogViewController.h */,
+				44D67578200F1041005A8E98 /* LoginLogViewController.m */,
+				44D67579200F1041005A8E98 /* LoginLogViewController.xib */,
+				44D6757C200F106E005A8E98 /* ChangePassWordViewController.h */,
+				44D6757D200F106E005A8E98 /* ChangePassWordViewController.m */,
+				44D6757E200F106E005A8E98 /* ChangePassWordViewController.xib */,
+				44D67581200F10A2005A8E98 /* DownloadAddViewController.h */,
+				44D67582200F10A2005A8E98 /* DownloadAddViewController.m */,
+				44D67583200F10A2005A8E98 /* DownloadAddViewController.xib */,
+				44D67586200F10BB005A8E98 /* VersonNumViewController.h */,
+				44D67587200F10BB005A8E98 /* VersonNumViewController.m */,
+				44D67588200F10BB005A8E98 /* VersonNumViewController.xib */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
+		44D6759D200F33BE005A8E98 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				44D6759E200F33BE005A8E98 /* ReceptionTableViewCell.h */,
+				44D6759F200F33BE005A8E98 /* ReceptionTableViewCell.m */,
+				44D675A0200F33BE005A8E98 /* ReceptionTableViewCell.xib */,
+				44E2FEFB20107A6D00105181 /* FollowRecordTableViewCell.h */,
+				44E2FEFC20107A6D00105181 /* FollowRecordTableViewCell.m */,
+				44E2FEFD20107A6D00105181 /* FollowRecordTableViewCell.xib */,
+				44A814DF2011C07F0055721B /* CustomReportTableViewCell.h */,
+				44A814E02011C07F0055721B /* CustomReportTableViewCell.m */,
+				44A814E12011C07F0055721B /* CustomReportTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		44D675A8200F483A005A8E98 /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FF062010C57300105181 /* Cell */,
+				44E2FF002010C32E00105181 /* FollowRecordLevel3 */,
+				44D675A9200F484D005A8E98 /* RecordFirstInfo */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
+		44D675A9200F484D005A8E98 /* RecordFirstInfo */ = {
+			isa = PBXGroup;
+			children = (
+				44D675AA200F4872005A8E98 /* RecordFirstInfoViewController.h */,
+				44D675AB200F4872005A8E98 /* RecordFirstInfoViewController.m */,
+				44D675AC200F4872005A8E98 /* RecordFirstInfoViewController.xib */,
+			);
+			path = RecordFirstInfo;
+			sourceTree = "<group>";
+		};
+		44D675B2200F5C02005A8E98 /* Level4 */ = {
+			isa = PBXGroup;
+			children = (
+				44D675B3200F5C74005A8E98 /* RecordFirstNextViewController.h */,
+				44D675B4200F5C74005A8E98 /* RecordFirstNextViewController.m */,
+				44D675B5200F5C74005A8E98 /* RecordFirstNextViewController.xib */,
+			);
+			path = Level4;
+			sourceTree = "<group>";
+		};
+		44E2FEBC20101C0700105181 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEBD20101C2900105181 /* SpeechViewController.h */,
+				44E2FEBE20101C2900105181 /* SpeechViewController.m */,
+				44E2FEBF20101C2900105181 /* SpeechViewController.xib */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		44E2FEC320102DC700105181 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FED820102E4E00105181 /* CDPAudioRecorder */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		44E2FED820102E4E00105181 /* CDPAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FED920102E4E00105181 /* AMR */,
+				44E2FEE620102E4E00105181 /* CDPAudioRecorder.h */,
+				44E2FEE720102E4E00105181 /* CDPAudioRecorder.m */,
+			);
+			path = CDPAudioRecorder;
+			sourceTree = "<group>";
+		};
+		44E2FED920102E4E00105181 /* AMR */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEDA20102E4E00105181 /* amrFileCodec.h */,
+				44E2FEDB20102E4E00105181 /* include */,
+				44E2FEE220102E4E00105181 /* lib */,
+				44E2FEE520102E4E00105181 /* amrFileCodec.m */,
+			);
+			path = AMR;
+			sourceTree = "<group>";
+		};
+		44E2FEDB20102E4E00105181 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEDC20102E4E00105181 /* opencore-amrwb */,
+				44E2FEDF20102E4E00105181 /* opencore-amrnb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		44E2FEDC20102E4E00105181 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEDD20102E4E00105181 /* if_rom.h */,
+				44E2FEDE20102E4E00105181 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		44E2FEDF20102E4E00105181 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEE020102E4E00105181 /* interf_dec.h */,
+				44E2FEE120102E4E00105181 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		44E2FEE220102E4E00105181 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEE320102E4E00105181 /* libopencore-amrwb.a */,
+				44E2FEE420102E4E00105181 /* libopencore-amrnb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		44E2FEEC20102E6E00105181 /* PlayRecord */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FEED20102E8800105181 /* PlayRecordViewController.h */,
+				44E2FEEE20102E8800105181 /* PlayRecordViewController.m */,
+				44E2FEEF20102E8800105181 /* PlayRecordViewController.xib */,
+			);
+			path = PlayRecord;
+			sourceTree = "<group>";
+		};
+		44E2FEF22010478200105181 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		44E2FF002010C32E00105181 /* FollowRecordLevel3 */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FF012010C36F00105181 /* FollowRecordLevelTwoViewController.h */,
+				44E2FF022010C36F00105181 /* FollowRecordLevelTwoViewController.m */,
+				44E2FF032010C36F00105181 /* FollowRecordLevelTwoViewController.xib */,
+			);
+			path = FollowRecordLevel3;
+			sourceTree = "<group>";
+		};
+		44E2FF062010C57300105181 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				44E2FF072010C5AC00105181 /* FollowLevelTwoTableViewCell.h */,
+				44E2FF082010C5AC00105181 /* FollowLevelTwoTableViewCell.m */,
+				44E2FF092010C5AC00105181 /* FollowLevelTwoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		655D7B2A1FEE918A0062697E = {
 			isa = PBXGroup;
 			children = (
@@ -156,9 +572,11 @@
 		655D7B351FEE918A0062697E /* PodTest */ = {
 			isa = PBXGroup;
 			children = (
+				44E2FEF22010478200105181 /* Configuration */,
+				44E2FEC320102DC700105181 /* Tool */,
+				440DFFF1200D888000F871F6 /* ViewLayer */,
 				65EAB7DE1FF14B9D0064044C /* ProgramEntrance */,
 				65EAB7DD1FF14B990064044C /* Category */,
-				65EAB7DC1FF14B960064044C /* Configuration */,
 				65EAB7DB1FF14B930064044C /* Base */,
 				65EAB7DA1FF14B750064044C /* Header */,
 				655D7B361FEE918A0062697E /* AppDelegate.h */,
@@ -198,6 +616,7 @@
 				65EAB7E21FF14CF90064044C /* AllHeader.h */,
 				65EAB8091FF173BA0064044C /* InterfaceHeader.h */,
 				65EAB80A1FF174AE0064044C /* SystemParameterHeader.h */,
+				44D67591200F220E005A8E98 /* DefaultStringHeader.h */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -205,18 +624,14 @@
 		65EAB7DB1FF14B930064044C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				44A814CE201178670055721B /* BaseCDPAudioRecordManager */,
 				65EAB7FE1FF164C20064044C /* BaseSession */,
 				65EAB7FD1FF164B20064044C /* Model */,
 				65EAB7FC1FF1649B0064044C /* BaseViewController */,
+				44A814D720119AEF0055721B /* BaseManagerObject.h */,
+				44A814D820119AEF0055721B /* BaseManagerObject.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		65EAB7DC1FF14B960064044C /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Configuration;
 			sourceTree = "<group>";
 		};
 		65EAB7DD1FF14B990064044C /* Category */ = {
@@ -224,6 +639,14 @@
 			children = (
 				65EAB8031FF171E30064044C /* UIImage+Compression.h */,
 				65EAB8041FF171E30064044C /* UIImage+Compression.m */,
+				440DFFFA200DD81900F871F6 /* NSString+Validation.h */,
+				440DFFFB200DD81900F871F6 /* NSString+Validation.m */,
+				440DFFFD200DDA3A00F871F6 /* NSString+UrlEncoding.h */,
+				440DFFFE200DDA3A00F871F6 /* NSString+UrlEncoding.m */,
+				44D6758E200F1A5A005A8E98 /* UIViewController+BarButton.h */,
+				44D6758F200F1A5A005A8E98 /* UIViewController+BarButton.m */,
+				44E2FEF320104CFA00105181 /* NSObject+View.h */,
+				44E2FEF420104CFA00105181 /* NSObject+View.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -231,6 +654,9 @@
 		65EAB7DE1FF14B9D0064044C /* ProgramEntrance */ = {
 			isa = PBXGroup;
 			children = (
+				44E2FEEC20102E6E00105181 /* PlayRecord */,
+				44E2FEBC20101C0700105181 /* Speech */,
+				44D67568200EE42F005A8E98 /* UserInfo */,
 				65EAB8071FF173050064044C /* MainModule */,
 				65EAB8061FF172B70064044C /* LoginModule */,
 			);
@@ -243,6 +669,19 @@
 				65EAB7ED1FF15AEE0064044C /* SuperViewController.h */,
 				65EAB7EE1FF15AEE0064044C /* SuperViewController.m */,
 				65EAB7EF1FF15AEE0064044C /* SuperViewController.xib */,
+				440D0004200DEC5000F871F6 /* BaseTableViewController.h */,
+				440D0005200DEC5000F871F6 /* BaseTableViewController.m */,
+				440D0007200DEC6D00F871F6 /* BaseScrollView.h */,
+				440D0008200DEC6D00F871F6 /* BaseScrollView.m */,
+				44D6756E200EE735005A8E98 /* BaseTableView.h */,
+				44D6756F200EE735005A8E98 /* BaseTableView.m */,
+				44D6758B200F1311005A8E98 /* BaseNavViewController.h */,
+				44D6758C200F1311005A8E98 /* BaseNavViewController.m */,
+				44D675AF200F4C79005A8E98 /* BaseView.h */,
+				44D675B0200F4C79005A8E98 /* BaseView.m */,
+				44A814D2201198050055721B /* ShowPromptBoxView.h */,
+				44A814D3201198050055721B /* ShowPromptBoxView.m */,
+				44A814D5201199AB0055721B /* ShowPromptBoxView.xib */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -284,6 +723,12 @@
 		65EAB8071FF173050064044C /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				44D67563200EDBF5005A8E98 /* MianTabBarViewController.h */,
+				44D67564200EDBF5005A8E98 /* MianTabBarViewController.m */,
+				44D67565200EDBF5005A8E98 /* MianTabBarViewController.xib */,
+				44D6755E200EDBB0005A8E98 /* MainTableViewController.h */,
+				44D6755F200EDBB0005A8E98 /* MainTableViewController.m */,
+				44D67560200EDBB0005A8E98 /* MainTableViewController.xib */,
 				65EAB7F21FF15AFF0064044C /* MainViewController.h */,
 				65EAB7F31FF15AFF0064044C /* MainViewController.m */,
 				65EAB7F41FF15AFF0064044C /* MainViewController.xib */,
@@ -295,9 +740,24 @@
 		65EAB8081FF173370064044C /* SubModule */ = {
 			isa = PBXGroup;
 			children = (
+				44D675B2200F5C02005A8E98 /* Level4 */,
+				44D675A8200F483A005A8E98 /* Level3 */,
+				44D6759D200F33BE005A8E98 /* Cell */,
+				44D675A3200F33BF005A8E98 /* CustomerReceptionViewController.h */,
+				44D675A1200F33BF005A8E98 /* CustomerReceptionViewController.m */,
+				44D675A2200F33BF005A8E98 /* CustomerReceptionViewController.xib */,
+				44E2FEF620106F4A00105181 /* FollowRecordViewController.h */,
+				44E2FEF720106F4A00105181 /* FollowRecordViewController.m */,
+				44E2FEF820106F4A00105181 /* FollowRecordViewController.xib */,
 				65EAB7F71FF164110064044C /* NextViewController.h */,
 				65EAB7F81FF164110064044C /* NextViewController.m */,
 				65EAB7F91FF164110064044C /* NextViewController.xib */,
+				44A814DA2011BF280055721B /* CustomReportViewController.h */,
+				44A814DB2011BF280055721B /* CustomReportViewController.m */,
+				44A814DC2011BF280055721B /* CustomReportViewController.xib */,
+				44A814E92011DA5E0055721B /* CustomerViewController.h */,
+				44A814EA2011DA5E0055721B /* CustomerViewController.m */,
+				44A814EB2011DA5E0055721B /* CustomerViewController.xib */,
 			);
 			path = SubModule;
 			sourceTree = "<group>";
@@ -420,14 +880,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D67580200F106E005A8E98 /* ChangePassWordViewController.xib in Resources */,
 				65EAB7EC1FF15ACD0064044C /* RegistrationViewController.xib in Resources */,
+				44D6757B200F1041005A8E98 /* LoginLogViewController.xib in Resources */,
+				44D67562200EDBB0005A8E98 /* MainTableViewController.xib in Resources */,
+				44A814ED2011DA5E0055721B /* CustomerViewController.xib in Resources */,
+				44A814D6201199AB0055721B /* ShowPromptBoxView.xib in Resources */,
+				44A814E32011C07F0055721B /* CustomReportTableViewCell.xib in Resources */,
+				44A814DE2011BF280055721B /* CustomReportViewController.xib in Resources */,
 				65EAB7E71FF15AB20064044C /* ForgetPassWordViewController.xib in Resources */,
+				44E2FF052010C36F00105181 /* FollowRecordLevelTwoViewController.xib in Resources */,
+				44E2FF0B2010C5AC00105181 /* FollowLevelTwoTableViewCell.xib in Resources */,
+				44E2FEF120102E8800105181 /* PlayRecordViewController.xib in Resources */,
+				44D675B7200F5C74005A8E98 /* RecordFirstNextViewController.xib in Resources */,
 				655D7B431FEE918A0062697E /* LaunchScreen.storyboard in Resources */,
+				44D675A7200F33BF005A8E98 /* CustomerReceptionViewController.xib in Resources */,
+				44E2FEC120101C2900105181 /* SpeechViewController.xib in Resources */,
+				44D67575200EED72005A8E98 /* UserInfoTableViewCell.xib in Resources */,
+				44E2FEFF20107A6D00105181 /* FollowRecordTableViewCell.xib in Resources */,
 				655D7B401FEE918A0062697E /* Assets.xcassets in Resources */,
+				44D6758A200F10BB005A8E98 /* VersonNumViewController.xib in Resources */,
+				44D675A5200F33BF005A8E98 /* ReceptionTableViewCell.xib in Resources */,
 				65EAB7F11FF15AEE0064044C /* SuperViewController.xib in Resources */,
+				44D675AE200F4872005A8E98 /* RecordFirstInfoViewController.xib in Resources */,
+				44E2FEFA20106F4A00105181 /* FollowRecordViewController.xib in Resources */,
 				65EAB7FB1FF164110064044C /* NextViewController.xib in Resources */,
 				65EAB7F61FF15AFF0064044C /* MainViewController.xib in Resources */,
+				44D6756D200EE455005A8E98 /* UserInfoViewController.xib in Resources */,
 				655D7B3E1FEE918A0062697E /* Main.storyboard in Resources */,
+				44D67585200F10A2005A8E98 /* DownloadAddViewController.xib in Resources */,
+				44D67567200EDBF5005A8E98 /* MianTabBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,9 +951,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PodTest/Pods-PodTest-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit-Modular/BaiduMapKit-Modular/Vendors/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -484,13 +971,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -500,17 +990,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D67570200EE735005A8E98 /* BaseTableView.m in Sources */,
+				44A814EC2011DA5E0055721B /* CustomerViewController.m in Sources */,
+				44D6757A200F1041005A8E98 /* LoginLogViewController.m in Sources */,
+				44D675B1200F4C79005A8E98 /* BaseView.m in Sources */,
+				44E2FEC020101C2900105181 /* SpeechViewController.m in Sources */,
+				44A814E22011C07F0055721B /* CustomReportTableViewCell.m in Sources */,
+				44D675B6200F5C74005A8E98 /* RecordFirstNextViewController.m in Sources */,
+				44E2FEEA20102E4E00105181 /* amrFileCodec.m in Sources */,
+				44E2FEF920106F4A00105181 /* FollowRecordViewController.m in Sources */,
+				44E2FEFE20107A6D00105181 /* FollowRecordTableViewCell.m in Sources */,
+				440D0009200DEC6D00F871F6 /* BaseScrollView.m in Sources */,
+				44D67589200F10BB005A8E98 /* VersonNumViewController.m in Sources */,
+				440DFFFF200DDA3A00F871F6 /* NSString+UrlEncoding.m in Sources */,
+				44A814D920119AEF0055721B /* BaseManagerObject.m in Sources */,
+				44E2FEF020102E8800105181 /* PlayRecordViewController.m in Sources */,
+				44D67561200EDBB0005A8E98 /* MainTableViewController.m in Sources */,
+				44D675AD200F4872005A8E98 /* RecordFirstInfoViewController.m in Sources */,
+				44E2FF042010C36F00105181 /* FollowRecordLevelTwoViewController.m in Sources */,
+				44D675A6200F33BF005A8E98 /* CustomerReceptionViewController.m in Sources */,
+				440D0003200DE4C000F871F6 /* ChartLineView.m in Sources */,
+				44D6757F200F106E005A8E98 /* ChangePassWordViewController.m in Sources */,
 				65EAB7F01FF15AEE0064044C /* SuperViewController.m in Sources */,
 				65EAB7FA1FF164110064044C /* NextViewController.m in Sources */,
+				44A814D1201178C90055721B /* BaseCDPAudioRecordManager.m in Sources */,
+				440D0006200DEC5000F871F6 /* BaseTableViewController.m in Sources */,
+				440DFFF4200D88F500F871F6 /* ThePieChartView.m in Sources */,
 				655D7B3B1FEE918A0062697E /* ViewController.m in Sources */,
 				65EAB8051FF171E30064044C /* UIImage+Compression.m in Sources */,
 				65EAB7EB1FF15ACD0064044C /* RegistrationViewController.m in Sources */,
+				44D67566200EDBF5005A8E98 /* MianTabBarViewController.m in Sources */,
 				65EAB7F51FF15AFF0064044C /* MainViewController.m in Sources */,
+				44A814D4201198050055721B /* ShowPromptBoxView.m in Sources */,
+				44D6758D200F1311005A8E98 /* BaseNavViewController.m in Sources */,
+				44E2FEEB20102E4E00105181 /* CDPAudioRecorder.m in Sources */,
+				44A814DD2011BF280055721B /* CustomReportViewController.m in Sources */,
 				655D7B461FEE918A0062697E /* main.m in Sources */,
+				440DFFF9200D8C2B00F871F6 /* BaseCircleView.m in Sources */,
+				44D67584200F10A2005A8E98 /* DownloadAddViewController.m in Sources */,
+				44D67574200EED72005A8E98 /* UserInfoTableViewCell.m in Sources */,
 				65EAB7E61FF15AB20064044C /* ForgetPassWordViewController.m in Sources */,
 				65EAB7E11FF14CA10064044C /* RTSessionManager.m in Sources */,
+				44D67590200F1A5A005A8E98 /* UIViewController+BarButton.m in Sources */,
+				44E2FEF520104CFA00105181 /* NSObject+View.m in Sources */,
+				44D6756C200EE455005A8E98 /* UserInfoViewController.m in Sources */,
+				44F843E2200C7EDD00CE9174 /* XZMLayer.m in Sources */,
+				44F843E5200C80C000CE9174 /* XZMPieView.m in Sources */,
+				44E2FF0A2010C5AC00105181 /* FollowLevelTwoTableViewCell.m in Sources */,
 				65EAB8011FF165090064044C /* BaseModel.m in Sources */,
+				440DFFFC200DD81900F871F6 /* NSString+Validation.m in Sources */,
 				655D7B381FEE918A0062697E /* AppDelegate.m in Sources */,
+				44D675A4200F33BF005A8E98 /* ReceptionTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +1209,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PodTest/PrefixHeader.pch";
 				INFOPLIST_FILE = PodTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodTest/Tool/CDPAudioRecorder/AMR/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = RT.PodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,7 +1231,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PodTest/PrefixHeader.pch";
 				INFOPLIST_FILE = PodTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodTest/Tool/CDPAudioRecorder/AMR/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = RT.PodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

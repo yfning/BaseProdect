@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FollowRecordLevelTwoViewController">
+            <connections>
+                <outlet property="bottomView" destination="Lbp-kB-jM0" id="wrN-cZ-h7E"/>
+                <outlet property="bottomView_contants_height" destination="Lw4-jE-lV3" id="ugP-hn-UCJ"/>
+                <outlet property="enterSpeakButton" destination="Gzz-I8-0UU" id="TxZ-9T-PuV"/>
+                <outlet property="keyBoardButton" destination="z1g-m1-bcD" id="bUW-it-SYV"/>
+                <outlet property="listTableView" destination="9P4-mW-RYT" id="4On-cH-kXZ"/>
+                <outlet property="showInfoTextView" destination="Xtb-aj-tFO" id="hUa-xu-C6Y"/>
+                <outlet property="showInfoText_contants_height" destination="7xW-Ec-TWq" id="vVJ-Fs-Pgk"/>
+                <outlet property="speakButton" destination="lPq-Yc-uxI" id="kbx-2T-29k"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="9P4-mW-RYT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lbp-kB-jM0">
+                    <rect key="frame" x="0.0" y="622" width="375" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPq-Yc-uxI">
+                            <rect key="frame" x="10" y="-0.5" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="WE1-tX-ask"/>
+                                <constraint firstAttribute="height" constant="45" id="sgO-Aj-MST"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="speakButtonAction:" destination="-1" eventType="touchUpInside" id="QtX-3r-rUu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1g-m1-bcD">
+                            <rect key="frame" x="320" y="0.5" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="dCm-RU-IUa"/>
+                                <constraint firstAttribute="height" constant="45" id="onQ-RQ-0Df"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="keyBoardButtonAction:" destination="-1" eventType="touchUpInside" id="CUX-dB-2qE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzz-I8-0UU">
+                            <rect key="frame" x="75" y="5.5" width="225" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="i9Z-GX-nnB"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xtb-aj-tFO">
+                            <rect key="frame" x="75" y="4.5" width="225" height="35"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="7xW-Ec-TWq"/>
+                            </constraints>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Gzz-I8-0UU" firstAttribute="centerY" secondItem="Lbp-kB-jM0" secondAttribute="centerY" id="0R8-A5-xoj"/>
+                        <constraint firstAttribute="trailing" secondItem="z1g-m1-bcD" secondAttribute="trailing" constant="10" id="8rn-LQ-pPu"/>
+                        <constraint firstAttribute="height" constant="45" id="Lw4-jE-lV3"/>
+                        <constraint firstItem="lPq-Yc-uxI" firstAttribute="leading" secondItem="Lbp-kB-jM0" secondAttribute="leading" constant="10" id="TaS-mi-Evd"/>
+                        <constraint firstItem="Xtb-aj-tFO" firstAttribute="leading" secondItem="Gzz-I8-0UU" secondAttribute="leading" id="UVz-vO-yim"/>
+                        <constraint firstItem="Gzz-I8-0UU" firstAttribute="leading" secondItem="lPq-Yc-uxI" secondAttribute="trailing" constant="20" id="Wo2-n2-TLo"/>
+                        <constraint firstItem="lPq-Yc-uxI" firstAttribute="centerY" secondItem="Lbp-kB-jM0" secondAttribute="centerY" id="aq6-cY-2je"/>
+                        <constraint firstItem="z1g-m1-bcD" firstAttribute="centerY" secondItem="Lbp-kB-jM0" secondAttribute="centerY" id="d78-Bu-uxZ"/>
+                        <constraint firstItem="z1g-m1-bcD" firstAttribute="leading" secondItem="Gzz-I8-0UU" secondAttribute="trailing" constant="20" id="jOZ-WB-SLh"/>
+                        <constraint firstItem="Xtb-aj-tFO" firstAttribute="trailing" secondItem="Gzz-I8-0UU" secondAttribute="trailing" id="n8q-eD-Nlc"/>
+                        <constraint firstItem="Xtb-aj-tFO" firstAttribute="centerY" secondItem="Lbp-kB-jM0" secondAttribute="centerY" id="pVm-nd-M37"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Lbp-kB-jM0" secondAttribute="bottom" id="H43-e9-7Fa"/>
+                <constraint firstAttribute="bottom" secondItem="9P4-mW-RYT" secondAttribute="bottom" id="S4Q-ZN-Vko"/>
+                <constraint firstItem="9P4-mW-RYT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UF7-hE-j55"/>
+                <constraint firstItem="9P4-mW-RYT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gld-8f-396"/>
+                <constraint firstAttribute="trailing" secondItem="Lbp-kB-jM0" secondAttribute="trailing" id="jgV-Gg-UmT"/>
+                <constraint firstItem="Lbp-kB-jM0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oL5-MJ-fyt"/>
+                <constraint firstAttribute="trailing" secondItem="9P4-mW-RYT" secondAttribute="trailing" id="wrm-Oo-5Rg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

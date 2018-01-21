@@ -8,6 +8,14 @@
 
 #import "MainViewController.h"
 #import "NextViewController.h"
+#import "CustomerReceptionViewController.h"
+#import "SpeechViewController.h"
+#import "PlayRecordViewController.h"
+#import "FollowRecordViewController.h"
+#import "CustomReportViewController.h"
+
+
+
 
 @interface MainViewController ()
 
@@ -29,15 +37,50 @@
     [self changeColorBackViewWithColor:[UIColor redColor]];
 }
 - (IBAction)changeBlue:(id)sender {
-    [self changeColorBackViewWithColor:[UIColor blueColor]];
+//    [self changeColorBackViewWithColor:[UIColor blueColor]];
 
+    [self.navigationController pushViewController:[SpeechViewController new] animated:YES];
+    
 }
 - (IBAction)changeGreen:(id)sender {
-    [self changeColorBackViewWithColor:[UIColor greenColor]];
+//    [self changeColorBackViewWithColor:[UIColor greenColor]];
+    
+    [self.navigationController pushViewController:[PlayRecordViewController new] animated:YES];
 
 }
 - (IBAction)nextViewAction:(id)sender {
     [self.navigationController pushViewController:[NextViewController new] animated:YES];
+}
+
+- (IBAction)pushbaobei:(id)sender {
+    
+    [self.navigationController pushViewController:[CustomReportViewController new] animated:YES];
+    
+}
+
+- (IBAction)pushqiandao:(id)sender {
+}
+- (IBAction)pushjiefang:(id)sender {
+    
+    CustomerReceptionViewController * reception = [CustomerReceptionViewController new];
+    [self.navigationController pushViewController:reception animated:YES];
+}
+- (IBAction)pushgenke:(id)sender {
+    
+    [self.navigationController pushViewController:[FollowRecordViewController new] animated:YES];
+}
+
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    
+    [super viewWillDisappear:animated];
+
 }
 
 /*

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordFirstInfoViewController">
+            <connections>
+                <outlet property="scrollBackView" destination="lrK-LR-fYo" id="3Rh-ky-BOH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6H-hV-aOi">
+                    <rect key="frame" x="10" y="528" width="300" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="sUH-HJ-RDs"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="pushNextAction:" destination="-1" eventType="touchUpInside" id="5la-4R-IcN"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IKb-i5-s16">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(必填)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mee-tv-cmQ">
+                            <rect key="frame" x="10" y="10" width="100" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="7GS-OT-JMa"/>
+                                <constraint firstAttribute="width" constant="100" id="EaQ-xI-8ra"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrK-LR-fYo">
+                            <rect key="frame" x="10" y="36" width="300" height="492"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="lrK-LR-fYo" secondAttribute="bottom" id="8e1-B2-D7D"/>
+                        <constraint firstItem="mee-tv-cmQ" firstAttribute="leading" secondItem="IKb-i5-s16" secondAttribute="leading" constant="10" id="9kN-xJ-xcW"/>
+                        <constraint firstItem="mee-tv-cmQ" firstAttribute="top" secondItem="IKb-i5-s16" secondAttribute="top" constant="10" id="ebl-Gn-fzw"/>
+                        <constraint firstItem="lrK-LR-fYo" firstAttribute="top" secondItem="mee-tv-cmQ" secondAttribute="bottom" constant="5" id="r43-0j-Ceg"/>
+                        <constraint firstAttribute="trailing" secondItem="lrK-LR-fYo" secondAttribute="trailing" constant="10" id="tFT-9a-qe5"/>
+                        <constraint firstItem="lrK-LR-fYo" firstAttribute="leading" secondItem="IKb-i5-s16" secondAttribute="leading" constant="10" id="xz0-xh-Hcv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IKb-i5-s16" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="67B-da-t3L"/>
+                <constraint firstItem="IKb-i5-s16" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6h1-HG-ApP"/>
+                <constraint firstAttribute="trailing" secondItem="IKb-i5-s16" secondAttribute="trailing" id="D5X-W1-jxd"/>
+                <constraint firstItem="B6H-hV-aOi" firstAttribute="top" secondItem="IKb-i5-s16" secondAttribute="bottom" id="cR8-dt-k6H"/>
+                <constraint firstAttribute="bottom" secondItem="B6H-hV-aOi" secondAttribute="bottom" constant="5" id="lW5-wA-nDN"/>
+                <constraint firstAttribute="trailing" secondItem="B6H-hV-aOi" secondAttribute="trailing" constant="10" id="wEW-4W-Lry"/>
+                <constraint firstItem="B6H-hV-aOi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="yMt-Hh-Igk"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

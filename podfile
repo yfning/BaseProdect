@@ -1,6 +1,12 @@
 
-platform :ios, '7.0'
+platform :ios, '8.0'
 target "PodTest" do
 pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage', '~>4.0.0'
+pod 'YYText'
+pod 'MJExtension'
+pod 'IQKeyboardManager'
+pod 'BaiduMapKit-Modular', '~> 3.3.4'
+pod 'MJRefresh'
+pod 'MBProgressHUD', '~> 1.1.0'
 end

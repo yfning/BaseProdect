@@ -1,0 +1,1 @@
+../../../../BaiduMapKit-Modular/BaiduMapKit-Modular/Vendors/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h
